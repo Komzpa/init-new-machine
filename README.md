@@ -11,6 +11,8 @@ sudo apt-get -y install eatmydata aptitude
 sudo eatmydata aptitude -y install htop mc iotop hdparm smartmontools iperf nmap
 # remote administration
 sudo eatmydata aptitude -y install screen apg
+# fast download manager
+sudo eatmydata aptitude -y install axel
 # development
 sudo eatmydata aptitude -y install make graphviz pv postgresql-client pypy python-autopep8
 sudo eatmydata aptitude -y install git
