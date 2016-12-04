@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y install eatmydata aptitude
 # system management
-sudo eatmydata aptitude -y install htop mc iotop hdparm smartmontools iperf nmap unattended-upgrades
+sudo eatmydata aptitude -y install htop mc vim iotop hdparm smartmontools iperf nmap unattended-upgrades
 # remote administration
 sudo eatmydata aptitude -y install screen apg
 # fast download manager
