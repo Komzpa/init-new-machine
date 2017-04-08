@@ -17,6 +17,10 @@ sudo eatmydata aptitude -y install axel
 sudo eatmydata aptitude -y install make graphviz pv postgresql-client pypy python-autopep8
 sudo eatmydata aptitude -y install git
 sudo eatmydata aptitude -y install docker-compose
+# monitoring
+sudo eatmydata aptitude -y install libdbd-pg-perl munin munin-node
+sudo munin-node-configure --shell | sudo bash
+sudo service munin-node restart
 ```
   
 ## GUI
