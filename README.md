@@ -31,5 +31,5 @@ proprietary: xmind viber slack google-earth-stable
 chrome: https://www.google.com/chrome/
 sudo snap install datagrip --classic
 
-sudo eatmydata aptitude install git-cola mplayer
+sudo eatmydata aptitude install git-cola mplayer krusader
 ```
