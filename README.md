@@ -18,7 +18,7 @@ sudo eatmydata aptitude -y install make graphviz pv postgresql-client pypy pytho
 sudo eatmydata aptitude -y install git
 sudo eatmydata aptitude -y install docker-compose
 # monitoring
-sudo eatmydata aptitude -y install libdbd-pg-perl munin munin-node
+sudo eatmydata aptitude -y install libdbd-pg-perl munin munin-node uptimed
 sudo munin-node-configure --shell | sudo bash
 sudo service munin-node restart
 ```
