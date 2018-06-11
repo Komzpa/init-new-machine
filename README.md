@@ -26,6 +26,10 @@ sudo service munin-node restart
 ## GUI
 
 ```
-proprietary: xmind viber slack google-chrome-stable google-earth-stable
+proprietary: xmind viber slack google-earth-stable
+
+chrome: https://www.google.com/chrome/
+sudo snap install datagrip --classic
+
 sudo eatmydata aptitude install git-cola mplayer
 ```
