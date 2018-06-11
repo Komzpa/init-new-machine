@@ -34,3 +34,11 @@ sudo snap install telegram-desktop
 
 sudo eatmydata aptitude install git-cola mplayer krusader
 ```
+
+## Copy data
+
+```
+connect machines with gbit ethernet
+echo Cipher arcfour >> .ssh/config
+ssh kom@old-machine -c 'tar -c /home/kom' | pv | tar xv .
+```
