@@ -21,6 +21,9 @@ sudo eatmydata aptitude -y install docker-compose
 sudo eatmydata aptitude -y install libdbd-pg-perl munin munin-node uptimed
 sudo munin-node-configure --shell | sudo bash
 sudo service munin-node restart
+
+sudo apt install exfat-fuse exfat-utils
+
 ```
   
 ## GUI
