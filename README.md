@@ -12,7 +12,7 @@ sudo eatmydata aptitude -y install htop mc vim iotop hdparm smartmontools iperf 
 # remote administration
 sudo eatmydata aptitude -y install screen apg
 # fast download manager
-sudo eatmydata aptitude -y install axel
+sudo eatmydata aptitude -y install axel curl wget
 # development
 sudo eatmydata aptitude -y install make graphviz pv postgresql-client pypy python-autopep8
 sudo eatmydata aptitude -y install git
